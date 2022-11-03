@@ -1,4 +1,4 @@
-#!/bin/sh
+#!/bin/bash
 #Daftar aplikasi yang digunakan untuk praktik latihan Debian 10
 
 #update
@@ -48,3 +48,4 @@ apt install -d -y htop
 apt install -d -y net-tools iptables iproute2 gawk grep sed net-tools
 apt install -d -y dpkg-dev
 apt install -d -y squid
+apt install -d -y asterisk
