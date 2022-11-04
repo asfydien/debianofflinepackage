@@ -11,10 +11,10 @@ apt install -d -y vsftpd
 apt install -d -y pure-ftpd
 #Remote Server
 apt install -d -y freeradius freeradius-mysql freeradius-utils
-apt install -d -y openssh-server openssh-client sshpass ntp chrony
+apt install -d -y openssh-server openssh-client sshpass ntp
 #File Server
 apt install -d -y samba smbclient
-apt install -d -y install winbind libpam-winbind libnss-winbind krb5-config samba-dsdb-modules samba-vfs-modules
+apt install -d -y winbind libpam-winbind libnss-winbind krb5-config samba-dsdb-modules samba-vfs-modules
 apt install -d -y slapd ldap-utils
 #Web Server
 apt install -d  -y apache2 perl ruby openssl python certbot libapache2-mod-auth-kerb apache2-utils php
@@ -49,3 +49,4 @@ apt install -d -y net-tools iptables iproute2 gawk grep sed net-tools
 apt install -d -y dpkg-dev
 apt install -d -y squid
 apt install -d -y asterisk
+apt install -d -y zip
