@@ -1,5 +1,5 @@
 #!/bin/bash
-#Daftar aplikasi yang digunakan untuk praktik latihan Debian 10
+#Daftar aplikasi yang digunakan untuk praktik latihan Debian 8
 
 #update
 apt upgrade --download-only
