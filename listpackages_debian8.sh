@@ -20,7 +20,7 @@ apt install -d -y slapd ldap-utils
 apt install -d  -y apache2 perl ruby openssl python libapache2-mod-auth-kerb apache2-utils php5
 apt install -d -y nginx php5-fpm
 apt install -d -y lighttpd
-apt install -d -y php5-curl php5-gd php5-mbstring php5-xml php5-xmlrpc php-5soap php5-intl php5-zip
+apt install -d -y php5-curl php5-gd php5-xmlrpc php5-intl php5-mysql php5-memcache php5-memcached php5-radius php5-snmp php5-redis
 #DNS Server
 apt install -d -y bind9 bind9utils dnsutils
 apt install -d -y dnsmasq resolvconf 
