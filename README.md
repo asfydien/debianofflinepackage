@@ -8,6 +8,7 @@ tahapan:
 6. susun menjadi file .iso
 
 apt install dpkg-dev
+
 dpkg-scanpackages -m . > Packages
 
 dpkg-scanpackages -m . | gzip > Packages.gz
