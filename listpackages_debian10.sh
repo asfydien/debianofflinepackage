@@ -14,7 +14,7 @@ apt install -d -y pure-ftpd
 
 #Remote Server
 apt install -d -y freeradius freeradius-mysql freeradius-utils
-apt install -d -y openssh-server openssh-client sshpass ntp
+apt install -d -y openssh-server openssh-client openssh-sftp-server sshpass ntp
 
 #File Server
 apt install -d -y samba smbclient
