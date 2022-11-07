@@ -62,3 +62,4 @@ apt install -d -y dpkg-dev
 apt install -d -y squid
 apt install -d -y asterisk
 apt install -d -y zip
+apt install -d -y ufw
