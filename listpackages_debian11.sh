@@ -22,10 +22,11 @@ apt install -d -y winbind libpam-winbind libnss-winbind krb5-config samba-dsdb-m
 apt install -d -y slapd ldap-utils
 
 #Web Server
-apt install -d  -y apache2 perl ruby openssl python certbot libapache2-mod-auth-kerb apache2-utils php
-apt install -d -y nginx php-fpm
+apt install -d -y apache2 php perl ruby openssl python certbot apache2-utils
+apt install -d -y nginx php-fpm nginx-extras libpam-krb5
 apt install -d -y lighttpd
 apt install -d -y php-curl php-gd php-mbstring php-xml php-xmlrpc php-soap php-intl php-zip
+apt install -d -y php-common php-enchant hunspell
 
 #DNS Server
 apt install -d -y bind9 bind9utils dnsutils
