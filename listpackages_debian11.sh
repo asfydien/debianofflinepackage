@@ -34,6 +34,7 @@ apt install -d -y dnsmasq resolvconf
 #Database Server
 apt install -d -y mariadb-server mariadb-client
 apt install -d -y postgresql phppgadmin php-pgsql
+apt install -d -y phpmyadmin
 
 #Mail Server
 apt install -d -y postfix sasl2-bin
