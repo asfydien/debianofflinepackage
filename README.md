@@ -9,7 +9,7 @@ Daftar list packet untuk debian linux yang akan dijadikan repositori lokal, ini 
     ./listpackages_debian10.sh
     ```    
 
-2. Ambil semua pada direktory /var/cache/apt/archives bisa gunakan aplikasi [WinSCP](https://winscp.net/eng/downloads.php)
+2. Ambil semua paket yang berada pada direktory /var/cache/apt/archives bisa gunakan aplikasi [WinSCP](https://winscp.net/eng/downloads.php)
 
 3. Rename nama paket yang mengandung karakter `%` atau `%253a` jadi `-` , gunakan aplikasi [Bulk Rename Utility](https://www.bulkrenameutility.co.uk/Download.php) supaya lebih mudah
 
