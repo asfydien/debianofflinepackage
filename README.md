@@ -13,7 +13,7 @@ Daftar list packet untuk debian linux yang akan dijadikan repositori lokal, ini 
 
 3. Rename nama paket yang mengandung karakter `%` atau `%253a` jadi `-` , gunakan aplikasi [Bulk Rename Utility](https://www.bulkrenameutility.co.uk/Download.php) supaya lebih mudah
 
-4. Kumpulkan semua paket yang akan di index kedalam satu directory, lalu buatkan file Packages dan Packages.gz
+4. Kumpulkan semua paket yang akan di index kedalam satu directory, lalu buatkan file `Packages` dan `Packages.gz`
     ```shell
     apt install dpkg-dev
     cd lokasi
@@ -23,4 +23,4 @@ Daftar list packet untuk debian linux yang akan dijadikan repositori lokal, ini 
 
 5. Simpan di webserver atau susun menjadi file .iso
 
-6. Untuk dijadikan iso, salin folder .info pada repositori debian yang sudah jadi, lalu sesuaikan isinya
+6. Untuk dijadikan iso, salin folder `.info` pada repositori debian yang sudah jadi, lalu sesuaikan isinya
